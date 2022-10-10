@@ -51,7 +51,7 @@ public class Inc_DIF2form extends Datix_Base {
 	}
 	
 	@When("User fills {string} {string}")
-	public void User_access_fields(String name,String Manager) {
+	public void User_access_fields(String name,String Manager) throws IOException {
 		
 		addnewinc.Nameandrefrence(2, name,Manager);
 		DateFormat d=new SimpleDateFormat("dd-mm");
