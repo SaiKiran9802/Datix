@@ -69,7 +69,7 @@ Name.sendKeys(U.getCellData(sheet, name, Row));
 Approvalstatus.sendKeys(U.getCellData(sheet, approvalstatus, Row));
 Handler.sendKeys(U.getCellData(sheet, handler, Row));
 	 }	
-public void Nameandrefrence(int Row, String name, String manager){
+public void Nameandrefrence(int Row, String name, String manager) throws IOException{
 	
 Name.sendKeys(U.getCellData(sheet, name, Row));
 Manager.sendKeys(U.getCellData(sheet, manager, Row));

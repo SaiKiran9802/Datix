@@ -40,7 +40,8 @@ public Datix_Capture_AccessSubModules() {
 
 	PageFactory.initElements(driver, this);
 	
-}	b 
+}
+
 public void accesscaputure() {
 	Actions a= new Actions(driver);
 	WebDriverWait w= new WebDriverWait(driver, java.time.Duration.ofMinutes(30));
