@@ -16,8 +16,8 @@ public class Datix_Logintest extends Datix_Base {
 	}
 
 
-	Datix_Login lin;
-	Datix_landingpage lng;
+	
+	Datix_Login lin;ngpage lng;
 	
 
 	@Given("user creditails")
